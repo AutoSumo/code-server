@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AutoSumo/code-server#readme",
   "dependencies": {
+    "@koa/cors": "^3.3.0",
     "koa": "^2.13.4",
     "koa-body": "^5.0.0",
     "koa-logger": "^3.2.1",

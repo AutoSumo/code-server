@@ -3,6 +3,7 @@ const logger = require('koa-logger');
 const koaBody = require('koa-body');
 const koaRespond = require('koa-respond');
 const Router = require('koa-router');
+const cors = require('@koa/cors');
 const sanitize = require('sanitize-filename');
 const fs = require('fs').promises;
 
@@ -11,6 +12,7 @@ const app = new Koa();
 app.use(logger());
 app.use(koaBody());
 app.use(koaRespond());
+app.use(cors());
 
 const router = new Router();
 
