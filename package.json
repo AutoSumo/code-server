@@ -19,11 +19,13 @@
   "homepage": "https://github.com/AutoSumo/code-server#readme",
   "dependencies": {
     "@koa/cors": "^3.3.0",
+    "dotenv": "^16.0.1",
     "koa": "^2.13.4",
     "koa-body": "^5.0.0",
     "koa-logger": "^3.2.1",
     "koa-respond": "^2.1.0",
     "koa-router": "^10.1.1",
+    "koa-websocket": "^7.0.0",
     "sanitize-filename": "^1.6.3"
   }
 }
